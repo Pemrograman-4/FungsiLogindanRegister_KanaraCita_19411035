@@ -19,7 +19,7 @@ class _StartUpState extends State<StartUp> {
       Navigator.pushReplacement(
           context,
           MaterialPageRoute(
-              builder: (BuildContext context) => const homepage()));
+              builder: (BuildContext context) => homepage()));
     } else {
       Navigator.pushReplacement(
           context,
